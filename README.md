@@ -22,4 +22,9 @@ In Task 3, Data Visualization, required me to create meaningful visual represent
 
 The final task, Task 4, centered around Sentiment Analysis using Natural Language Processing (NLP). I worked with an IMDb movie review dataset containing textual reviews and their corresponding sentiment labels: positive, negative, or neutral. First, I used the nltk library to clean the reviews by removing HTML tags, stopwords, punctuation, and non-alphabetic characters. The cleaned text was then vectorized using TfidfVectorizer from sklearn.feature_extraction.text, converting it into numerical format suitable for model training. I trained a LogisticRegression model from sklearn.linear_model and evaluated it using classification_report to determine accuracy, precision, and recall. I also created a function to classify custom reviews using the trained model. Additionally, I calculated the total number of positive, negative, and neutral reviews from the data without using machine learning, which provided a quick overview of sentiment distribution. This task showcased how unstructured text data can be converted into actionable insights using NLP techniques.
 
+#Output
+
+<img width="2880" height="1704" alt="Image" src="https://github.com/user-attachments/assets/465043b6-ea0f-4a6d-aba9-6253f76e3f9d" />
+
+<img width="2880" height="1704" alt="Image" src="https://github.com/user-attachments/assets/89bf43af-8cb9-439d-8a3b-0ad8676abaec" />
 
