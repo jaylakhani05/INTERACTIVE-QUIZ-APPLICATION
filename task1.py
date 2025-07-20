@@ -41,8 +41,3 @@ trips_per_hour.toPandas().to_csv("trip_count_by_hour.csv")
 # --- Stop Spark ---
 spark.stop()
 
-# Save average trip distance by day of week
-#avg_distance_by_day.coalesce(1).write.option("header", True).csv("output/avg_distance_by_day")
-
-# Save trip count by hour
-#trip_count_by_hour.coalesce(1).write.option("header", True).csv("output/trip_count_by_hour")
